@@ -13,10 +13,19 @@
 <body>
     <div class="container">
         <h1>05/26教室1113自選打掃頁面</h1>
+<?php
+include_once "./db.php";
+        if(isset($_GET['msg'])){
+    echo "<span style='color:orange'>";
+    echo $msg[$_GET['msg']];
+    echo "</span>";
+}
+?>
         <form action="vote.php" method="get">
             <h3>你的名子</h3>
             <select id="dropdown" name="selection">
                 <optgroup label="我是?">
+                <option value="" selected>請選擇</option>
                     <option value="1">文翰</option>
                     <option value="2">淑敏</option>
                     <option value="3">博宏</option>
@@ -42,7 +51,7 @@
                 </optgroup>
             </select>
             <br><br>
-            <input type="submit" value="繼續">
+            <!-- <input type="submit" value="繼續"> -->
         </form>
     </div>
 
