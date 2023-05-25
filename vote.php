@@ -29,7 +29,7 @@ $options = $pdo->query("select * from `options` where `subject_id`='0'")->fetchA
     </ul>
 
     <div>
-        <!-- <input type="hidden" name="subject_id" value="<?=$_GET['id'];?>"> -->
+        <input type="hidden" name="seat_id" value="<?=$_GET['selection'];?>">
         <input type="submit" value="投票">
         <input type="button" value="取消">
     </div>

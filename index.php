@@ -12,36 +12,37 @@
 
 <body>
     <div class="container">
-        <h1>0526教室1113自選打掃頁面</h1>
+        <h1>05/26教室1113自選打掃頁面</h1>
         <form action="vote.php" method="get">
+            <h3>你的名子</h3>
             <select id="dropdown" name="selection">
-                <optgroup label="請選擇座號">
-                    <option value="1">1 號</option>
-                    <option value="2">2 號</option>
-                    <option value="3">3 號</option>
-                    <option value="4">4 號</option>
-                    <option value="5">5 號</option>
-                    <option value="6">6 號</option>
-                    <option value="8">8 號</option>
-                    <option value="9">9 號</option>
-                    <option value="10">10 號</option>
-                    <option value="11">11 號</option>
-                    <option value="12">12 號</option>
-                    <option value="13">13 號</option>
-                    <option value="14">14 號</option>
-                    <option value="15">15 號</option>
-                    <option value="16">16 號</option>
-                    <option value="17">17 號</option>
-                    <option value="18">18 號</option>
-                    <option value="19">19 號</option>
-                    <option value="20">20 號</option>
-                    <option value="21">21 號</option>
-                    <option value="22">22 號</option>
-                    <option value="23">23 號</option>
+                <optgroup label="我是?">
+                    <option value="1">文翰</option>
+                    <option value="2">淑敏</option>
+                    <option value="3">博宏</option>
+                    <option value="4">聆韻</option>
+                    <option value="5">品君</option>
+                    <option value="6">仕庭</option>
+                    <option value="8">威安</option>
+                    <option value="9">可瑞</option>
+                    <option value="10">育成</option>
+                    <option value="11">家茜</option>
+                    <option value="12">亮均</option>
+                    <option value="13">劉錠</option>
+                    <option value="14">承昉</option>
+                    <option value="15">凱迪</option>
+                    <option value="16">勝皇</option>
+                    <option value="17">嘉慶</option>
+                    <option value="18">厚任</option>
+                    <option value="19">郁國</option>
+                    <option value="20">靖雅</option>
+                    <option value="21">有志</option>
+                    <option value="22">展志</option>
+                    <option value="23">哲源</option>
                 </optgroup>
             </select>
             <br><br>
-            <input type="submit" value="提交">
+            <input type="submit" value="繼續">
         </form>
     </div>
 
