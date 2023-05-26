@@ -20,7 +20,7 @@ $matchingSeatIds = $pdo->query("SELECT seat_id FROM members WHERE vote_result = 
 //                         ->fetchAll(PDO::FETCH_COLUMN);
 
 // 顯示結果
-echo"$name 已成功選擇了 $vote_result 這項清潔任務。";
+echo"$name 已成功選擇了< $vote_result >這項清潔任務。";
 
 
 echo "<p>" . $name . "將與以下隊友組隊：</p>";

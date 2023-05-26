@@ -48,7 +48,7 @@ $options = $pdo->query("select * from `options` where `subject_id`='0'")->fetchA
 
     <div>
         <input type="hidden" name="seat_id" value="<?=$_GET['selection'];?>">
-        <input type="submit" value="click me!" class="await">
+        <input type="submit" value="確定click me!" class="await">
         <!-- <input type="button" value="取消"> -->
     </div>
     <br>

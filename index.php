@@ -22,7 +22,7 @@ include_once "./db.php";
 }
 ?>
         <form action="vote.php" method="get">
-            <h3>你的名子</h3>
+            <h3>你的名字</h3>
             <select id="dropdown" name="selection">
                 <optgroup label="我是?">
                 <option value="" selected>請選擇</option>
@@ -34,7 +34,7 @@ include_once "./db.php";
                     <option value="6">仕庭</option>
                     <option value="8">威安</option>
                     <option value="9">可瑞</option>
-                    <option value="10">育成</option>
+                    <option value="10">育誠</option>
                     <option value="11">家茜</option>
                     <option value="12">亮均</option>
                     <option value="13">劉錠</option>

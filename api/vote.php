@@ -1,6 +1,6 @@
 <?php
 include_once "../db.php";
-
+//須加上判斷無資料
 $desc = $_POST['desc'];
 $seat_id = $_POST['seat_id'];
 
