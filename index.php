@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <h1>05/26教室1113自選打掃頁面</h1>
+        <h1>06/28教室1113自選打掃頁面</h1>
 <?php
 include_once "./db.php";
         if(isset($_GET['msg'])){
