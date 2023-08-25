@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <h1>06/28教室1113自選打掃頁面</h1>
+        <h1>08/25教室1113自選打掃頁面</h1>
 <?php
 include_once "./db.php";
         if(isset($_GET['msg'])){
@@ -25,7 +25,7 @@ include_once "./db.php";
             <h3>你的名字</h3>
             <select id="dropdown" name="selection">
                 <optgroup label="我是?">
-                <option value="" selected>請選擇</option>
+                <option selected>請選擇</option>
                     <option value="1">文翰</option>
                     <option value="2">淑敏</option>
                     <option value="3">博宏</option>
@@ -37,15 +37,15 @@ include_once "./db.php";
                     <option value="10">育誠</option>
                     <option value="11">家茜</option>
                     <option value="12">亮均</option>
-                    <option value="13">劉錠</option>
-                    <option value="14">承昉</option>
+                    <!-- <option value="13">劉錠</option> -->
+                    <!-- <option value="14">承昉</option> -->
                     <option value="15">凱迪</option>
                     <option value="16">勝皇</option>
                     <option value="17">嘉慶</option>
-                    <option value="18">厚任</option>
+                    <!-- <option value="18">厚任</option> -->
                     <option value="19">郁國</option>
                     <option value="20">靖雅</option>
-                    <option value="21">有志</option>
+                    <!-- <option value="21">有志</option> -->
                     <option value="22">展志</option>
                     <option value="23">哲源</option>
                 </optgroup>
